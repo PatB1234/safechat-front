@@ -1,0 +1,23 @@
+.mat-button-toggle {
+    background-color: #306cee;
+    color: #ffffff;
+}
+
+.mat-button-toggle:hover {
+    background-color: transparent;
+    color: #1100ff !important;
+}
+
+.mat-button-toggle-checked {
+    background-color: #ec2c4c;
+    color: #67ec79 !important;
+}
+
+button {
+
+    margin-left: 10px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}

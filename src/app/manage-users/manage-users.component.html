@@ -1,0 +1,21 @@
+<mat-toolbar>
+
+    <div>
+
+        <mat-button-toggle-group [formControl]="fontStyleControl" aria-label="Font Style">
+            <mat-button-toggle value="Students">Students</mat-button-toggle>
+            <mat-button-toggle value="Admins">Admins</mat-button-toggle>
+            <mat-button-toggle value="Teachers">Teachers</mat-button-toggle>
+        </mat-button-toggle-group>
+    </div>
+    <span class="example-spacer"></span>
+    <div>
+
+        <button mat-flat-button color="primary">Import</button>
+        <button mat-flat-button color="primary">Add</button>
+        <button mat-flat-button color="primary">Delete</button>
+    </div>
+</mat-toolbar>
+
+<ag-grid-angular style="width: 75%; height: 75%;" class="ag-theme-alpine" [rowData]="rowData" [columnDefs]="columnDefs">
+</ag-grid-angular>
