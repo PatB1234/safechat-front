@@ -12,6 +12,9 @@ import { ManageUsersComponent } from './manage-users/manage-users.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AgGridModule } from 'ag-grid-angular';
 
+import { StudentChatComponent } from './student-chat/student-chat.component';
+import { AdminToolbarComponent } from './admin-toolbar/admin-toolbar.component';
+import { StudentToolbarComponent } from './student-toolbar/student-toolbar.component';
 
 @NgModule({
   imports: [
@@ -26,7 +29,10 @@ import { AgGridModule } from 'ag-grid-angular';
   declarations: [
     AppComponent,
     LoginComponent,
-    ManageUsersComponent
+    ManageUsersComponent,
+    StudentChatComponent,
+    AdminToolbarComponent,
+    StudentToolbarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
